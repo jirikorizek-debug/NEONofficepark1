@@ -118,7 +118,7 @@ transform:translateY(-2px);
 /* SECTIONS */
 
 section{
-padding:100px 20px;
+padding:100px 20px; 
 }
 
 .container{
@@ -4506,3 +4506,57 @@ object-fit:cover;
 footer{
     margin-top:0 !important;
 }
+
+
+/* FULL WIDTH MOBILE FIX */
+
+@media (max-width:768px){
+
+html,
+body{
+    margin:0 !important;
+    padding:0 !important;
+    overflow-x:hidden !important;
+    width:100% !important;
+}
+
+/* zrušení všech container limitů */
+
+.container,
+.wrapper,
+.hero-container,
+.hero-content-modern,
+.hero-inner,
+.nx-office-container,
+section,
+.hero,
+.hero-section{
+    width:100% !important;
+    max-width:100% !important;
+    margin-left:0 !important;
+    margin-right:0 !important;
+    padding-left:0 !important;
+    padding-right:0 !important;
+}
+
+/* hero image přes celý mobil */
+
+.hero img,
+.hero-section img,
+.slider img{
+    width:100vw !important;
+    max-width:100vw !important;
+    object-fit:cover;
+}
+
+/* text uvnitř */
+
+.hero-content,
+.hero-left,
+.hero-text{
+    padding-left:20px !important;
+    padding-right:20px !important;
+}
+
+}
+
