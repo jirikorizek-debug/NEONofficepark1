@@ -4560,3 +4560,59 @@ section,
 
 }
 
+
+/* =========================================
+FULL WIDTH FIX - GALLERY + CONTACT
+========================================= */
+
+@media (max-width:768px){
+
+/* GALERIE */
+
+.gallery-page,
+.gallery-section,
+.gallery-container,
+.gallery-wrapper,
+.gallery-grid,
+.gallery-hero{
+    width:100% !important;
+    max-width:100% !important;
+    margin:0 !important;
+    padding-left:0 !important;
+    padding-right:0 !important;
+}
+
+/* CONTACT */
+
+.contact-page,
+.contact-section,
+.contact-container,
+.contact-wrapper,
+.contact-content,
+.contact-bg{
+    width:100% !important;
+    max-width:100% !important;
+    margin:0 !important;
+    padding-left:0 !important;
+    padding-right:0 !important;
+}
+
+/* INNER CONTENT */
+
+.gallery-content,
+.contact-content,
+.contact-info{
+    padding-left:20px !important;
+    padding-right:20px !important;
+}
+
+/* IMAGES */
+
+.gallery-item img,
+.contact-bg img{
+    width:100% !important;
+    display:block;
+}
+
+}
+
