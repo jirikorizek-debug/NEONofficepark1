@@ -4705,3 +4705,77 @@ HERO BUTTON MOBILE FIX
 }
 
 }
+
+/* =========================================
+HOME STRIP MOBILE FIX
+========================================= */
+
+@media(max-width:768px){
+
+/* HLAVIČKA SEKCE */
+
+.section-head,
+.offices-head,
+.project-head{
+    display:flex !important;
+    flex-direction:column !important;
+    align-items:flex-start !important;
+    gap:16px !important;
+}
+
+.section-head a,
+.offices-head a,
+.project-head a{
+    display:block !important;
+    width:auto !important;
+    font-size:18px !important;
+    line-height:1.4 !important;
+    white-space:normal !important;
+}
+
+/* INFO STRIP */
+
+.feature-strip,
+.feature-bar,
+.nx-office-info{
+    display:grid !important;
+    grid-template-columns:1fr !important;
+    gap:20px !important;
+    padding:24px 20px !important;
+}
+
+/* TEXT */
+
+.feature-strip p,
+.feature-bar p,
+.nx-office-text{
+    font-size:18px !important;
+    line-height:1.7 !important;
+}
+
+/* KARTY */
+
+.feature-box,
+.feature-item,
+.nx-office-card{
+    width:100% !important;
+    min-height:auto !important;
+    padding:28px 20px !important;
+    border-radius:22px !important;
+}
+
+/* BUTTON */
+
+.hero-btn,
+.hero-btn-main,
+.hero-btn-modern,
+.about-btn{
+    width:100% !important;
+    display:flex !important;
+    justify-content:center !important;
+    padding:18px 22px !important;
+    font-size:18px !important;
+    border-radius:18px !important;
+}
+
+}
