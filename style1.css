@@ -4544,8 +4544,8 @@ section,
 .hero img,
 .hero-section img,
 .slider img{
-    width:100vw !important;
-    max-width:100vw !important;
+    width:100% !important;
+    max-width:100% !important;
     object-fit:cover;
 }
 
@@ -4560,248 +4560,29 @@ section,
 
 }
 
-
 /* =========================================
-FULL WIDTH FIX - GALLERY + CONTACT
-========================================= */
-
-@media (max-width:768px){
-
-/* GALERIE */
-
-.gallery-page,
-.gallery-section,
-.gallery-container,
-.gallery-wrapper,
-.gallery-grid,
-.gallery-hero{
-    width:100% !important;
-    max-width:100% !important;
-    margin:0 !important;
-    padding-left:0 !important;
-    padding-right:0 !important;
-}
-
-/* CONTACT */
-
-.contact-page,
-.contact-section,
-.contact-container,
-.contact-wrapper,
-.contact-content,
-.contact-bg{
-    width:100% !important;
-    max-width:100% !important;
-    margin:0 !important;
-    padding-left:0 !important;
-    padding-right:0 !important;
-}
-
-/* INNER CONTENT */
-
-.gallery-content,
-.contact-content,
-.contact-info{
-    padding-left:20px !important;
-    padding-right:20px !important;
-}
-
-/* IMAGES */
-
-.gallery-item img,
-.contact-bg img{
-    width:100% !important;
-    display:block;
-}
-
-}
-
-/* =========================================
-GALLERY FULL WIDTH MOBILE FIX
-========================================= */
-/* =========================================
-SAFE MOBILE FULL WIDTH
-========================================= */
-
-@media (max-width:768px){
-
-.gallery-grid{
-    width:100% !important;
-    max-width:100% !important;
-    display:grid !important;
-    grid-template-columns:1fr !important;
-    gap:0 !important;
-    padding:0 !important;
-    margin:0 !important;
-}
-
-.gallery-item{
-    width:100% !important;
-    margin:0 !important;
-    border-radius:0 !important;
-    overflow:hidden !important;
-}
-
-.gallery-item img{
-    width:100% !important;
-    height:auto !important;
-    display:block !important;
-    object-fit:cover !important;
-}
-  }
-
-  /* =========================================
-MOBILE TITLE FIX
+FINAL MOBILE FIX
 ========================================= */
 
 @media(max-width:768px){
 
-.section-head,
-.project-head,
-.office-head{
-    display:flex !important;
-    flex-direction:column !important;
-    align-items:flex-start !important;
-    gap:14px !important;
-    width:100% !important;
-    overflow:hidden !important;
+html,
+body{
+    overflow-x:hidden;
 }
 
-.section-head h2,
-.project-head h2,
-.office-head h2{
-    width:100% !important;
-    font-size:58px !important;
-    line-height:0.95 !important;
-    word-break:break-word !important;
-}
-
-.section-head a,
-.project-head a,
-.office-head a{
-    width:100% !important;
-    font-size:18px !important;
-}
-
-}
-}
-
-/* =========================================
-HERO BUTTON MOBILE FIX
-========================================= */
-
-@media(max-width:768px){
-
-.featured-header,
-.section-header,
-.offices-header{
-    display:block !important;
-}
-
-.featured-header a,
-.section-header a,
-.offices-header a{
-    display:block !important;
-    margin-top:18px !important;
-}
-
-}
-
-/* =========================================
-HOME STRIP MOBILE FIX
-========================================= */
-
-@media(max-width:768px){
-
-/* HLAVIČKA SEKCE */
-
-.section-head,
-.offices-head,
-.project-head{
-    display:flex !important;
-    flex-direction:column !important;
-    align-items:flex-start !important;
-    gap:16px !important;
-}
-
-.section-head a,
-.offices-head a,
-.project-head a{
-    display:block !important;
-    width:auto !important;
-    font-size:18px !important;
-    line-height:1.4 !important;
-    white-space:normal !important;
-}
-
-/* INFO STRIP */
-
-.feature-strip,
-.feature-bar,
-.nx-office-info{
-    display:grid !important;
-    grid-template-columns:1fr !important;
-    gap:20px !important;
-    padding:24px 20px !important;
-}
-
-/* TEXT */
-
-.feature-strip p,
-.feature-bar p,
-.nx-office-text{
-    font-size:18px !important;
-    line-height:1.7 !important;
-}
-
-/* KARTY */
-
-.feature-box,
-.feature-item,
-.nx-office-card{
-    width:100% !important;
-    min-height:auto !important;
-    padding:28px 20px !important;
-    border-radius:22px !important;
-}
-
-/* BUTTON */
-
-.hero-btn,
-.hero-btn-main,
-.hero-btn-modern,
-.about-btn{
-    width:100% !important;
-    display:flex !important;
-    justify-content:center !important;
-    padding:18px 22px !important;
-    font-size:18px !important;
-    border-radius:18px !important;
-}
-
-}
-
-
-/* =========================================
-REAL HERO MOBILE FIX
-========================================= */
-
-@media(max-width:768px){
+/* HERO */
 
 .hero-inner{
-    display:flex !important;
-    flex-direction:column !important;
-    width:100% !important;
     padding:0 20px !important;
 }
 
 .hero-left{
     width:100% !important;
-    max-width:100% !important;
 }
 
 .hero-left h1{
-    font-size:58px !important;
+    font-size:54px !important;
     line-height:0.95 !important;
 }
 
@@ -4810,105 +4591,23 @@ REAL HERO MOBILE FIX
     line-height:1.6 !important;
 }
 
-/* BUTTON */
-
 .hero-btn{
     display:flex !important;
-    width:100% !important;
     justify-content:center !important;
     align-items:center !important;
 
+    width:100% !important;
+
     padding:18px 22px !important;
-    margin-top:24px !important;
 
     border-radius:18px !important;
 
-    font-size:18px !important;
+    margin-top:24px !important;
+
     text-align:center !important;
-
-    box-sizing:border-box !important;
 }
 
-
-}
-
-/* =========================================
-PREMIUM MOBILE FEATURE STRIP
-========================================= */
-
-@media(max-width:768px){
-
-.feature-strip,
-.feature-bar,
-.nx-office-info{
-    display:flex !important;
-    flex-direction:column !important;
-    gap:18px !important;
-
-    padding:20px !important;
-    margin-top:30px !important;
-}
-
-/* jednotlivé boxy */
-
-.feature-box,
-.feature-item,
-.nx-office-card{
-
-    width:100% !important;
-
-    padding:26px 22px !important;
-
-    border-radius:24px !important;
-
-    min-height:auto !important;
-}
-
-/* nadpisy */
-
-.feature-box h3,
-.feature-item h3,
-.nx-office-card h3{
-    font-size:22px !important;
-    line-height:1.2 !important;
-
-    margin-bottom:10px !important;
-}
-
-/* text */
-
-.feature-box p,
-.feature-item p,
-.nx-office-card p,
-.nx-office-text{
-
-    font-size:16px !important;
-    line-height:1.7 !important;
-}
-
-/* ikony */
-
-.feature-box svg,
-.feature-item svg{
-    width:26px !important;
-    height:26px !important;
-}
-
-}
-
-@media(max-width:768px){
-
-a[onclick*="showPage('offices')"]{
-    display:none !important;
-}
-
-}
-
-/* =========================================
-MOBILE INFO STRIP REBUILD
-========================================= */
-
-@media(max-width:768px){
+/* INFO STRIP */
 
 .nx-office-info,
 .feature-strip,
@@ -4919,21 +4618,8 @@ MOBILE INFO STRIP REBUILD
 
     gap:18px !important;
 
-    padding:24px 20px !important;
+    padding:20px !important;
 }
-
-/* LEVÝ TEXT */
-
-.nx-office-text{
-    width:100% !important;
-
-    font-size:18px !important;
-    line-height:1.7 !important;
-
-    margin-bottom:10px !important;
-}
-
-/* STAT BOXES */
 
 .nx-office-card,
 .feature-box,
@@ -4941,72 +4627,23 @@ MOBILE INFO STRIP REBUILD
 
     width:100% !important;
 
-    min-height:auto !important;
+    padding:26px 22px !important;
 
-    padding:28px 24px !important;
-
-    border-radius:24px !important;
+    border-radius:22px !important;
 }
 
-/* ČÍSLA */
-
-.nx-office-card h3,
-.feature-box h3,
-.feature-item h3{
-    font-size:48px !important;
-    line-height:1 !important;
+.nx-office-text{
+    font-size:17px !important;
+    line-height:1.7 !important;
 }
 
-/* POPISKY */
+/* SCHOVÁNÍ LINKU */
 
-.nx-office-card p,
-.feature-box p,
-.feature-item p{
-    font-size:20px !important;
-    line-height:1.4 !important;
-}
-
-/* BUTTON */
-
-.nx-office-button,
-.feature-strip a{
-    width:100% !important;
-
-    display:flex !important;
-    justify-content:center !important;
-
-    padding:18px 22px !important;
-
-    border-radius:18px !important;
-
-    font-size:18px !important;
+a[onclick*="showPage('offices')"]{
+    display:none !important;
 }
 
 }
 
-/* =========================================
-HERO BUTTON CLEAN MOBILE
-========================================= */
 
-@media(max-width:768px){
 
-.hero-btn{
-
-    display:flex !important;
-    justify-content:center !important;
-    align-items:center !important;
-
-    width:100% !important;
-
-    padding:18px 22px !important;
-
-    border-radius:18px !important;
-
-    font-size:18px !important;
-
-    text-align:center !important;
-
-    margin-top:24px !important;
-}
-
-}
