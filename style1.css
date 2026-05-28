@@ -5013,3 +5013,69 @@ GALLERY BG FULL WIDTH
 }
 
 }
+
+
+/* =========================================
+ABOUT + CONTACT FULL WIDTH MOBILE
+========================================= */
+
+@media(max-width:768px){
+
+/* ABOUT */
+
+.about-page,
+.about-hero,
+.about-section,
+.stats-section{
+
+    width:100vw !important;
+    max-width:100vw !important;
+
+    margin-left:calc(50% - 50vw) !important;
+    margin-right:calc(50% - 50vw) !important;
+
+    padding-left:0 !important;
+    padding-right:0 !important;
+}
+
+/* CONTACT */
+
+.contact-bg,
+.contact-hero,
+.contact-section{
+
+    width:100vw !important;
+    max-width:100vw !important;
+
+    margin-left:calc(50% - 50vw) !important;
+    margin-right:calc(50% - 50vw) !important;
+
+    padding-left:0 !important;
+    padding-right:0 !important;
+}
+
+/* VNITŘNÍ CONTENT */
+
+.contact-hero-content,
+.hero-content,
+.about-grid,
+.contact-card{
+
+    padding-left:20px !important;
+    padding-right:20px !important;
+
+    box-sizing:border-box !important;
+}
+
+/* CONTACT MAP */
+
+.contact-map iframe{
+
+    width:100% !important;
+
+    height:300px !important;
+
+    border-radius:20px !important;
+}
+
+}
