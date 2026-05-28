@@ -4872,3 +4872,49 @@ FEATURE BAR MOBILE CLEAN
 
 }
 
+/* =========================================
+GALLERY TITLE FIX MOBILE
+========================================= */
+
+@media(max-width:768px){
+
+.gallery-hero h1{
+
+    font-size:56px !important;
+
+    line-height:0.95 !important;
+
+    word-break:normal !important;
+
+    overflow-wrap:normal !important;
+
+    white-space:normal !important;
+
+    text-align:center !important;
+}
+
+}
+
+/* =========================================
+GALLERY TITLE FIX MOBILE
+========================================= */
+
+@media(max-width:768px){
+
+.gallery-hero h1{
+
+    font-size:56px !important;
+
+    line-height:0.95 !important;
+
+    word-break:normal !important;
+
+    overflow-wrap:normal !important;
+
+    white-space:normal !important;
+
+    text-align:center !important;
+}
+
+}
+
