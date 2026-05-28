@@ -4684,3 +4684,30 @@ MOBILE TITLE FIX
 
 }
 }
+
+/* =========================================
+HERO BUTTON MOBILE FIX
+========================================= */
+
+@media(max-width:768px){
+
+.hero-btn,
+.hero-btn-main,
+.hero-btn-modern,
+.about-btn,
+.nx-office-button{
+    width:100% !important;
+    display:flex !important;
+    justify-content:center !important;
+    align-items:center !important;
+
+    padding:16px 20px !important;
+    font-size:16px !important;
+
+    border-radius:16px !important;
+    text-align:center !important;
+
+    box-sizing:border-box !important;
+}
+
+}
