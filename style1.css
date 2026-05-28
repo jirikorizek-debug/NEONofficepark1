@@ -4821,4 +4821,26 @@ FEATURE BAR MOBILE CLEAN
 
 }
 
+@media(max-width:768px){
+
+.feature-bar{
+
+    display:flex !important;
+    flex-direction:column !important;
+
+    width:100% !important;
+}
+
+.feature-bar .feature-box{
+
+    flex:none !important;
+
+    width:100% !important;
+    max-width:100% !important;
+
+    margin:0 !important;
+}
+
+}
+
 
