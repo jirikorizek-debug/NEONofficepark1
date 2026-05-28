@@ -4591,19 +4591,7 @@ body{
     text-align:center !important;
 }
 
-/* INFO STRIP */
 
-.nx-office-info,
-.feature-strip,
-.feature-bar{
-
-    display:flex !important;
-    flex-direction:column !important;
-
-    gap:18px !important;
-
-    padding:20px !important;
-}
 
 .nx-office-card,
 .feature-box,
