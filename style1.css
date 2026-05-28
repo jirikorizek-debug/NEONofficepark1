@@ -4844,3 +4844,31 @@ FEATURE BAR MOBILE CLEAN
 }
 
 
+
+@media(max-width:768px){
+
+.hero-btn,
+.hero-btn-main,
+.hero-btn-modern{
+
+    display:flex !important;
+    justify-content:center !important;
+    align-items:center !important;
+
+    width:100% !important;
+
+    padding:18px 22px !important;
+
+    border-radius:18px !important;
+
+    margin-top:24px !important;
+
+    font-size:18px !important;
+
+    text-align:center !important;
+
+    box-sizing:border-box !important;
+}
+
+}
+
