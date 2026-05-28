@@ -4830,3 +4830,10 @@ REAL HERO MOBILE FIX
 }
 
 }
+@media(max-width:768px){
+
+.hero-btn{
+    display:none !important;
+}
+
+}
