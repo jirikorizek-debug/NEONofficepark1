@@ -5091,3 +5091,45 @@ ABOUT + CONTACT FULL WIDTH MOBILE
 }
 
 }
+
+
+/* =========================================
+GALLERY HERO MOBILE FINAL FIX
+========================================= */
+
+@media(max-width:768px){
+
+.gallery-hero{
+
+    min-height:auto !important;
+    height:auto !important;
+
+    padding-top:60px !important;
+    padding-bottom:30px !important;
+
+    display:flex !important;
+    align-items:center !important;
+    justify-content:center !important;
+}
+
+.gallery-hero-content{
+
+    padding:0 20px !important;
+
+    margin-bottom:0 !important;
+}
+
+.gallery-hero h1{
+
+    font-size:64px !important;
+    line-height:0.95 !important;
+
+    margin-bottom:20px !important;
+}
+
+.gallery-hero p{
+
+    margin-bottom:0 !important;
+}
+
+}
