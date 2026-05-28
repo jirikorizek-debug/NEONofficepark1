@@ -4780,3 +4780,53 @@ HOME STRIP MOBILE FIX
 }
 
 }
+
+
+/* =========================================
+REAL HERO MOBILE FIX
+========================================= */
+
+@media(max-width:768px){
+
+.hero-inner{
+    display:flex !important;
+    flex-direction:column !important;
+    width:100% !important;
+    padding:0 20px !important;
+}
+
+.hero-left{
+    width:100% !important;
+    max-width:100% !important;
+}
+
+.hero-left h1{
+    font-size:58px !important;
+    line-height:0.95 !important;
+}
+
+.hero-left p{
+    font-size:18px !important;
+    line-height:1.6 !important;
+}
+
+/* BUTTON */
+
+.hero-btn{
+    display:flex !important;
+    width:100% !important;
+    justify-content:center !important;
+    align-items:center !important;
+
+    padding:18px 22px !important;
+    margin-top:24px !important;
+
+    border-radius:18px !important;
+
+    font-size:18px !important;
+    text-align:center !important;
+
+    box-sizing:border-box !important;
+}
+
+}
