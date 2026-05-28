@@ -4829,17 +4829,6 @@ REAL HERO MOBILE FIX
     box-sizing:border-box !important;
 }
 
-}
-
-@media(max-width:768px){
-
-a.hero-btn{
-    display:none !important;
-    visibility:hidden !important;
-    opacity:0 !important;
-    height:0 !important;
-    overflow:hidden !important;
-}
 
 }
 
@@ -4903,6 +4892,14 @@ PREMIUM MOBILE FEATURE STRIP
 .feature-item svg{
     width:26px !important;
     height:26px !important;
+}
+
+}
+
+@media(max-width:768px){
+
+a[onclick*="showPage('offices')"]{
+    display:none !important;
 }
 
 }
