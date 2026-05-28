@@ -4903,3 +4903,110 @@ a[onclick*="showPage('offices')"]{
 }
 
 }
+
+/* =========================================
+MOBILE INFO STRIP REBUILD
+========================================= */
+
+@media(max-width:768px){
+
+.nx-office-info,
+.feature-strip,
+.feature-bar{
+
+    display:flex !important;
+    flex-direction:column !important;
+
+    gap:18px !important;
+
+    padding:24px 20px !important;
+}
+
+/* LEVÝ TEXT */
+
+.nx-office-text{
+    width:100% !important;
+
+    font-size:18px !important;
+    line-height:1.7 !important;
+
+    margin-bottom:10px !important;
+}
+
+/* STAT BOXES */
+
+.nx-office-card,
+.feature-box,
+.feature-item{
+
+    width:100% !important;
+
+    min-height:auto !important;
+
+    padding:28px 24px !important;
+
+    border-radius:24px !important;
+}
+
+/* ČÍSLA */
+
+.nx-office-card h3,
+.feature-box h3,
+.feature-item h3{
+    font-size:48px !important;
+    line-height:1 !important;
+}
+
+/* POPISKY */
+
+.nx-office-card p,
+.feature-box p,
+.feature-item p{
+    font-size:20px !important;
+    line-height:1.4 !important;
+}
+
+/* BUTTON */
+
+.nx-office-button,
+.feature-strip a{
+    width:100% !important;
+
+    display:flex !important;
+    justify-content:center !important;
+
+    padding:18px 22px !important;
+
+    border-radius:18px !important;
+
+    font-size:18px !important;
+}
+
+}
+
+/* =========================================
+HERO BUTTON CLEAN MOBILE
+========================================= */
+
+@media(max-width:768px){
+
+.hero-btn{
+
+    display:flex !important;
+    justify-content:center !important;
+    align-items:center !important;
+
+    width:100% !important;
+
+    padding:18px 22px !important;
+
+    border-radius:18px !important;
+
+    font-size:18px !important;
+
+    text-align:center !important;
+
+    margin-top:24px !important;
+}
+
+}
