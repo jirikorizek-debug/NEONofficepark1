@@ -5138,4 +5138,10 @@ GALLERY HERO MOBILE FINAL FIX
 }
 }
 
+@media (max-width: 768px) {
+    .section-top a {
+        display: none;
+    }
+}
+
 
