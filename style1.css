@@ -4612,9 +4612,7 @@ body{
 
 /* SCHOVÁNÍ LINKU */
 
-a[onclick*="showPage('offices')"]{
-    display:none !important;
-}
+
 
 }
 
@@ -5141,6 +5139,12 @@ GALLERY HERO MOBILE FINAL FIX
 @media (max-width: 768px) {
     .section-top a {
         display: none;
+    }
+}
+
+@media (max-width:768px){
+    a[onclick*="showPage('offices')"]{
+        display:none !important;
     }
 }
 
