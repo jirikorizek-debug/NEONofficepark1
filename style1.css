@@ -4918,3 +4918,50 @@ GALLERY TITLE FIX MOBILE
 
 }
 
+
+/* =========================================
+REAL FULL WIDTH GALLERY HERO
+========================================= */
+
+@media(max-width:768px){
+
+.gallery-hero,
+.gallery-hero-content,
+.gallery-page,
+.gallery-section{
+
+    width:100vw !important;
+    max-width:100vw !important;
+
+    margin-left:calc(50% - 50vw) !important;
+    margin-right:calc(50% - 50vw) !important;
+
+    padding-left:0 !important;
+    padding-right:0 !important;
+}
+
+/* text uvnitř */
+
+.gallery-hero-content{
+
+    padding:120px 20px 60px !important;
+
+    box-sizing:border-box !important;
+
+    text-align:center !important;
+}
+
+/* nadpis */
+
+.gallery-hero h1{
+
+    font-size:56px !important;
+
+    line-height:0.92 !important;
+
+    word-break:normal !important;
+
+    overflow-wrap:normal !important;
+}
+
+}
