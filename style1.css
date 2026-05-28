@@ -4830,10 +4830,79 @@ REAL HERO MOBILE FIX
 }
 
 }
+
 @media(max-width:768px){
 
-.hero-btn{
+a.hero-btn{
     display:none !important;
+    visibility:hidden !important;
+    opacity:0 !important;
+    height:0 !important;
+    overflow:hidden !important;
+}
+
+}
+
+/* =========================================
+PREMIUM MOBILE FEATURE STRIP
+========================================= */
+
+@media(max-width:768px){
+
+.feature-strip,
+.feature-bar,
+.nx-office-info{
+    display:flex !important;
+    flex-direction:column !important;
+    gap:18px !important;
+
+    padding:20px !important;
+    margin-top:30px !important;
+}
+
+/* jednotlivé boxy */
+
+.feature-box,
+.feature-item,
+.nx-office-card{
+
+    width:100% !important;
+
+    padding:26px 22px !important;
+
+    border-radius:24px !important;
+
+    min-height:auto !important;
+}
+
+/* nadpisy */
+
+.feature-box h3,
+.feature-item h3,
+.nx-office-card h3{
+    font-size:22px !important;
+    line-height:1.2 !important;
+
+    margin-bottom:10px !important;
+}
+
+/* text */
+
+.feature-box p,
+.feature-item p,
+.nx-office-card p,
+.nx-office-text{
+
+    font-size:16px !important;
+    line-height:1.7 !important;
+}
+
+/* ikony */
+
+.feature-box svg,
+.feature-item svg{
+    width:26px !important;
+    height:26px !important;
 }
 
 }
