@@ -5143,5 +5143,30 @@ GALLERY HERO MOBILE FINAL FIX
 }
 
 
+@media (max-width:9999px){
+
+#offices,
+.offices-page{
+    width:100vw !important;
+    max-width:100vw !important;
+    margin-left:calc(50% - 50vw) !important;
+    margin-right:calc(50% - 50vw) !important;
+}
+
+/* zrušení omezení vnitřního layoutu */
+.offices-page{
+    padding-left:0 !important;
+    padding-right:0 !important;
+}
+
+/* pokud něco drží container */
+.offices-content,
+.table-wrapper{
+    width:100% !important;
+    max-width:100% !important;
+}
+}
+
+
 
 
