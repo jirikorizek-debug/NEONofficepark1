@@ -5133,7 +5133,7 @@ GALLERY HERO MOBILE FINAL FIX
 }
 
 
-  a[onclick*="showPage('gallery')"]{
+.project-left a[onclick*="showPage('gallery')"]{
     display:none !important;
 }
 }
