@@ -4461,6 +4461,7 @@ display:grid;
 grid-template-columns:1fr !important;
 gap:18px !important;
 padding:30px 18px 60px !important;
+  margin-top:0 !important;
 }
 
 /* ITEMS */
@@ -4989,7 +4990,7 @@ GALLERY BG FULL WIDTH
     max-width:100% !important;
 
     margin:0 !important;
-    padding:120px 20px 60px !important;
+    padding:90px 20px 20px !important;
 
     box-sizing:border-box !important;
 }
