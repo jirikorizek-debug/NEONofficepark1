@@ -4648,4 +4648,73 @@ a[onclick*="showPage('offices')"]{
 }
 
 
+/* =========================================
+PROJECT SECTION MOBILE
+========================================= */
+
+@media(max-width:768px){
+
+.project-section{
+
+    display:flex !important;
+    flex-direction:column !important;
+
+    gap:28px !important;
+
+    padding:30px 20px !important;
+}
+
+.project-left{
+    width:100% !important;
+}
+
+.project-left h2{
+
+    font-size:42px !important;
+    line-height:1 !important;
+
+    margin-bottom:18px !important;
+}
+
+.project-left p{
+
+    font-size:17px !important;
+    line-height:1.7 !important;
+}
+
+/* STAT GRID */
+
+.stats-grid{
+
+    display:grid !important;
+
+    grid-template-columns:1fr 1fr !important;
+
+    gap:16px !important;
+}
+
+/* BOXES */
+
+.stat-box{
+
+    padding:24px 18px !important;
+
+    border-radius:22px !important;
+}
+
+/* ČÍSLA */
+
+.stat-box h3{
+    font-size:42px !important;
+}
+
+/* TEXT */
+
+.stat-box span{
+    font-size:15px !important;
+}
+
+}
+
+
 
