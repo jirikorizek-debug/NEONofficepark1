@@ -4522,22 +4522,6 @@ body{
 
 /* zrušení všech container limitů */
 
-.container,
-.wrapper,
-.hero-container,
-.hero-content-modern,
-.hero-inner,
-.nx-office-container,
-section,
-.hero,
-.hero-section{
-    width:100% !important;
-    max-width:100% !important;
-    margin-left:0 !important;
-    margin-right:0 !important;
-    padding-left:0 !important;
-    padding-right:0 !important;
-}
 
 /* hero image přes celý mobil */
 
@@ -4641,6 +4625,24 @@ body{
 
 a[onclick*="showPage('offices')"]{
     display:none !important;
+}
+
+}
+
+  @media(max-width:768px){
+
+.modern-home,
+.hero-section,
+.hero-inner{
+    margin:0 !important;
+    padding-left:0 !important;
+    padding-right:0 !important;
+    width:100% !important;
+    max-width:100% !important;
+}
+
+.hero-left{
+    padding:0 20px !important;
 }
 
 }
