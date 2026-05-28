@@ -4649,4 +4649,38 @@ SAFE MOBILE FULL WIDTH
     object-fit:cover !important;
 }
 
+  /* =========================================
+MOBILE TITLE FIX
+========================================= */
+
+@media(max-width:768px){
+
+.section-head,
+.project-head,
+.office-head{
+    display:flex !important;
+    flex-direction:column !important;
+    align-items:flex-start !important;
+    gap:14px !important;
+    width:100% !important;
+    overflow:hidden !important;
+}
+
+.section-head h2,
+.project-head h2,
+.office-head h2{
+    width:100% !important;
+    font-size:58px !important;
+    line-height:0.95 !important;
+    word-break:break-word !important;
+}
+
+.section-head a,
+.project-head a,
+.office-head a{
+    width:100% !important;
+    font-size:18px !important;
+}
+
+}
 }
