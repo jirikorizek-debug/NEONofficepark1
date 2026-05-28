@@ -4965,3 +4965,51 @@ REAL FULL WIDTH GALLERY HERO
 }
 
 }
+
+/* =========================================
+GALLERY BG FULL WIDTH
+========================================= */
+
+@media(max-width:768px){
+
+.gallery-bg{
+
+    width:100vw !important;
+    max-width:100vw !important;
+
+    margin-left:calc(50% - 50vw) !important;
+    margin-right:calc(50% - 50vw) !important;
+
+    padding:0 !important;
+}
+
+.gallery-hero{
+
+    width:100% !important;
+    max-width:100% !important;
+
+    margin:0 !important;
+    padding:120px 20px 60px !important;
+
+    box-sizing:border-box !important;
+}
+
+.gallery-hero-content{
+
+    width:100% !important;
+    max-width:100% !important;
+
+    padding:0 !important;
+
+    text-align:center !important;
+}
+
+.gallery-hero h1{
+
+    font-size:48px !important;
+    line-height:0.95 !important;
+
+    word-break:normal !important;
+}
+
+}
