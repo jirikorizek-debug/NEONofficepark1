@@ -5080,3 +5080,14 @@ ABOUT + CONTACT FULL WIDTH MOBILE
 }
 
 }
+
+@media(max-width:768px){
+
+.gallery-grid{
+
+    padding-top:0 !important;
+
+    margin-top:-40px !important;
+}
+
+}
