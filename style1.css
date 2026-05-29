@@ -5173,6 +5173,143 @@ GALLERY HERO MOBILE FINAL FIX
     }
 }
 
+/* =========================================
+MOBILE TABLE CARDS
+========================================= */
+
+@media(max-width:768px){
+
+.table-wrapper{
+    overflow:visible !important;
+    width:100%;
+}
+
+/* schovej desktop header */
+
+.availability-table thead{
+    display:none;
+}
+
+/* reset */
+
+.availability-table,
+.availability-table tbody{
+    display:block;
+    width:100%;
+}
+
+/* floor row */
+
+.floor-row{
+    margin:30px 0 12px !important;
+}
+
+.floor-row td{
+    display:block !important;
+    width:100% !important;
+    background:#d88b16;
+    color:#fff;
+    font-weight:700;
+    font-size:22px;
+    padding:16px 20px !important;
+    border-radius:18px;
+}
+
+/* normal rows */
+
+.availability-table tr{
+    display:block;
+    width:100%;
+    background:#fff;
+    border-radius:22px;
+    padding:18px;
+    margin-bottom:18px;
+    box-shadow:0 8px 24px rgba(0,0,0,0.06);
+    border:1px solid rgba(0,0,0,0.06);
+}
+
+/* jednotlivé info */
+
+.availability-table tr td{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    gap:20px;
+    width:100%;
+    padding:10px 0 !important;
+    border:none !important;
+    text-align:right;
+    font-size:15px;
+}
+
+/* labels */
+
+.availability-table tr td:nth-child(1)::before{
+    content:"Kancelář";
+}
+
+.availability-table tr td:nth-child(2)::before{
+    content:"Výměra";
+}
+
+.availability-table tr td:nth-child(3)::before{
+    content:"Orientace";
+}
+
+.availability-table tr td:nth-child(4)::before{
+    content:"Dostupnost";
+}
+
+.availability-table tr td:nth-child(5)::before{
+    content:"Poznámka";
+}
+
+.availability-table tr td:nth-child(6)::before{
+    content:"";
+}
+
+/* style labels */
+
+.availability-table td::before{
+    font-weight:700;
+    color:#777;
+    text-transform:uppercase;
+    font-size:12px;
+    letter-spacing:.5px;
+    text-align:left;
+}
+
+/* detail button */
+
+.detail-button{
+    width:100%;
+    padding:14px;
+    border-radius:14px;
+    background:#d88b16;
+    color:#fff;
+    border:none;
+    font-weight:700;
+    margin-top:10px;
+}
+
+/* status */
+
+.status{
+    border-radius:999px;
+    padding:8px 14px !important;
+    font-size:12px !important;
+}
+
+/* dlouhé poznámky */
+
+.availability-table td:nth-child(5){
+    flex-direction:column;
+    align-items:flex-start;
+    text-align:left;
+}
+
+}
+
 
 
 
